@@ -1,0 +1,6 @@
+from functools import reduce
+fibonacci =  lambda a: reduce(lambda x, _: x+[x[-1]+x[-2]],range(n-2), [0, 1])\
+a = int(input("add Numberrrrrrrrrrrrrr: "))
+print(fibonacci(a))
+
+don't know why it's not working
