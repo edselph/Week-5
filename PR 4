@@ -1,0 +1,10 @@
+import datetime
+ForNow = datetime.datetime.now()
+Year = lambda x: x.year
+Month = lambda x: x.month
+Day = lambda x: x.day
+Time = lambda x: x.time()
+print(Year(ForNow))
+print(Month(ForNow))
+print(Day(ForNow))
+print(Time(ForNow))
