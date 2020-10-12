@@ -1,0 +1,6 @@
+
+import random
+n = random.randint(0, 100)
+multi = lambda x : x * n
+y = eval(input("add number to times it: "))
+print(multi(y))
