@@ -1,0 +1,10 @@
+Ari = lambda x : x + 15
+Kali = lambda x,y: x*y
+
+x = int(input("add number:"))
+print(Ari(x))
+
+X = int(input("put number for times x "))
+Y = int(input("put number for times y "))
+print(Kali(X,Y))
+
