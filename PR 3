@@ -1,0 +1,5 @@
+import random
+
+my_tuple = (1,0,24,3,16,74,3,50,random.randint(0,100),)
+why = lambda x : sorted(x)
+print(tuple(why(my_tuple)))
